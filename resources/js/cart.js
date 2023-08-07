@@ -40,7 +40,7 @@ if (localStorage.getItem("productcart") != null) {
         " aria-label='quantity'><button onclick='increment()'>+</button></div></div>";
 
       var etdblock =
-        "<div class='itemgroup-option col-lg-3 px-0'><div id='cart__itm--edit'><img src='resources/images/icons/edit.svg' alt='edit product' style='width: 1.5em'/><span>Edit Icon </span></div><div id='cart__itm--remove'><img src='resources/images/icons/delete.svg' alt='delete item' style='width: 1.5em'/><span>Remove </span></div><div id='cart__itm--saveforlater'><img src='resources/images/icons/heart.svg' alt='save for later' style='width: 1.5em'/><span>Save for Later </span></div></div>";
+        "<div class='itemgroup-option col-lg-3 px-0'><div id='cart__itm--edit'><img src='resources/images/icons/edit.jpg' alt='edit product' style='width: 1.5em'/><span>Edit Icon </span></div><div id='cart__itm--remove'><img src='resources/images/icons/delete.png' alt='delete item' style='width: 1.5em'/><span>Remove </span></div><div id='cart__itm--saveforlater'><img src='resources/images/icons/heart.png' alt='save for later' style='width: 1.5em'/><span>Save for Later </span></div></div>";
       var itemblock =
         "<div class='productcart__item--details d-flex'>" +
         imageblock +
